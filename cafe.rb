@@ -30,5 +30,5 @@ ordered_drink = take_order(DRINKS)
 puts 'フードメニューはいかがですか?'
 ordered_food = take_order(FOODS)
 
-total = DRINKS[(ordered_food)][:price] + FOODS[(ordered_drink)][:price]
+total = DRINKS[(ordered_drink)][:price] + FOODS[(ordered_food)][:price]
 puts "お会計は#{total}円になります。ありがとうございました！"
